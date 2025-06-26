@@ -16,4 +16,5 @@ variable "dimensions" {
 
 variable "material" {
   type = string
+  default = "minecraft:stone"
 }

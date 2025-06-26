@@ -15,4 +15,5 @@ variable "position" {
 variable "material" {
   description = "Minecraft block to use for drawing the logo"
   type        = string
+  default = "minecraft:stone"
 }

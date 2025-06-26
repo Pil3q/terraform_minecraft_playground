@@ -8,4 +8,5 @@ variable "position" {
 
 variable "material" {
   type = string
+  default = "minecraft:stone"
 }
