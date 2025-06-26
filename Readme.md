@@ -1,8 +1,3 @@
-# Terraform Minecraft playground
-
-Just a few tests using the [Terraform Minecraft provider](https://registry.terraform.io/providers/HashiCraft/minecraft/0.1.1).
-
-<!-- BEGIN_TF_DOCS -->
 ## Requirements
 
 | Name | Version |
@@ -21,6 +16,7 @@ Just a few tests using the [Terraform Minecraft provider](https://registry.terra
 |------|--------|---------|
 | <a name="module_cube"></a> [cube](#module\_cube) | ./cube | n/a |
 | <a name="module_minecraft_words"></a> [minecraft\_words](#module\_minecraft\_words) | git@github.com:massimilianovallascas/terraform_module_minecraft_words.git | n/a |
+| <a name="module_panda"></a> [panda](#module\_panda) | ./panda | n/a |
 | <a name="module_square"></a> [square](#module\_square) | ./square | n/a |
 | <a name="module_tower1"></a> [tower1](#module\_tower1) | ./square | n/a |
 | <a name="module_tower2"></a> [tower2](#module\_tower2) | ./square | n/a |
@@ -38,9 +34,8 @@ Just a few tests using the [Terraform Minecraft provider](https://registry.terra
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_position"></a> [position](#input\_position) | n/a | <pre>object({<br>    x = number<br>    y = number<br>    z = number<br>  })</pre> | <pre>{<br>  "x": 0,<br>  "y": -60,<br>  "z": 0<br>}</pre> | no |
+| <a name="input_position"></a> [position](#input\_position) | n/a | <pre>object({<br/>    x = number<br/>    y = number<br/>    z = number<br/>  })</pre> | <pre>{<br/>  "x": -20,<br/>  "y": -60,<br/>  "z": 0<br/>}</pre> | no |
 
 ## Outputs
 
 No outputs.
-<!-- END_TF_DOCS -->
